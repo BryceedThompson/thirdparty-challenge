@@ -1,6 +1,3 @@
-//var saveButton = document.querySelector(".saveBtn");
-//var noteSaveArray = [];
-//var userNotes = document.querySelector(".saveBtn");
 
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
@@ -23,11 +20,6 @@ timeBlock.children().children("i").on("click" , (event)=>{
 console.log(notes);
 console.log(time);
 });
-//saveButton.addEventListener("click",(event)=>{
-  //event.preventDefault();
-  //noteSaveArray = [];
-//});
-
 
   //
   // TODO: Add code to apply the past, present, or future class to each time
@@ -53,9 +45,6 @@ console.log(time);
     }
   }
   applyTime();
-setInterval(()=>{
-  applyTime();
-  },1000);
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
